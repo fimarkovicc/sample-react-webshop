@@ -260,7 +260,6 @@ $black: #000;
 
 .workshop-item-full__img {
   width: 100%;
-  max-height: 382px;
   border-radius: 8px;
   margin-bottom: 40px;
 }
@@ -435,7 +434,8 @@ $black: #000;
 
 .cart-item {
   display: flex;
-  margin-bottom: 20px;
+  margin: 20px;
+  background-color: $lightgreylow;
 }
 
 .cart-item__image {
